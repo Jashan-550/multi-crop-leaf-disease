@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+results/*.zip
+# keep the trained model but ignore stray checkpoints
+*.h5
+!best_model.keras
+.keras
+results/efficientnetb0_finetune_best.keras
+results/mobilenetv2_p1_best.keras
+results/efficientnetb0_p1_best.keras
+results/efficientnetb0_best.keras
+results/custom_cnn_best.keras
+results/mobilenetv2_best.keras
+results/mobilenetv2_finetune_best.keras
+results/best_model.keras

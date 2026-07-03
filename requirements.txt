@@ -1,0 +1,10 @@
+# Model saved on Kaggle TF 2.20; use 2.16+ locally to load best_model.keras
+tensorflow>=2.16,<2.21
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+scikit-learn==1.4.2
+opencv-python-headless==4.9.0.80
+pillow==10.3.0
+streamlit==1.35.0
+seaborn==0.13.2

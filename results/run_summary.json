@@ -1,0 +1,67 @@
+{
+  "timestamp": "2026-07-02T23:35:35",
+  "tf_version": "2.20.0",
+  "dataset": {
+    "data_root": "/kaggle/input/datasets/kaustubhb999/tomatoleaf/tomato",
+    "layout": "split",
+    "num_classes": 10,
+    "class_names": [
+      "Tomato___Bacterial_spot",
+      "Tomato___Early_blight",
+      "Tomato___healthy",
+      "Tomato___Late_blight",
+      "Tomato___Leaf_Mold",
+      "Tomato___Septoria_leaf_spot",
+      "Tomato___Spider_mites Two-spotted_spider_mite",
+      "Tomato___Target_Spot",
+      "Tomato___Tomato_mosaic_virus",
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus"
+    ],
+    "train_count": 8500,
+    "val_count": 1000,
+    "test_count": 1500
+  },
+  "best_val_accuracy": {
+    "custom_cnn": 0.9330000281333923,
+    "mobilenetv2": 0.8920000195503235,
+    "efficientnetb0": 0.921999990940094
+  },
+  "eval_split": "test",
+  "best_model": {
+    "name": "Custom CNN",
+    "test_accuracy": 0.938,
+    "macro_f1": 0.9386970211723067
+  },
+  "results_files": [
+    "augmented_samples.png",
+    "best_model.keras",
+    "class_distribution.csv",
+    "class_distribution.png",
+    "class_weights.json",
+    "classification_report.csv",
+    "confusion_matrix.png",
+    "corrupt_images.txt",
+    "custom_cnn_best.keras",
+    "efficientnetb0_best.keras",
+    "efficientnetb0_finetune_best.keras",
+    "efficientnetb0_p1_best.keras",
+    "gradcam_examples.png",
+    "history_custom_cnn.json",
+    "history_efficientnetb0.json",
+    "history_mobilenetv2.json",
+    "label_map.json",
+    "mobilenetv2_best.keras",
+    "mobilenetv2_finetune_best.keras",
+    "mobilenetv2_p1_best.keras",
+    "model_comparison.csv",
+    "robustness_accuracy.png",
+    "robustness_perturbation_examples.png",
+    "robustness_results.csv",
+    "sample_images.png",
+    "shap_examples.png",
+    "split_summary.csv",
+    "training_curve_custom_cnn.png",
+    "training_curve_efficientnetb0.png",
+    "training_curve_mobilenetv2.png"
+  ]
+}
